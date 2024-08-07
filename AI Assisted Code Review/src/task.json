@@ -1,17 +1,17 @@
 {
     "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
-    "id": "abd1f390-3d55-4eb2-af0a-273c5dbf256f",
-    "name": "OpenAICodeReview",
-    "friendlyName": "Open AI Code Review",
-    "description": "Complete a Code Review using Open AI",
+    "id": "0a0aff0e-7034-4c5a-a070-bcd31b6d80df",
+    "name": "AIAssistedCodeReview",
+    "friendlyName": "AI-Assisted Code Review",
+    "description": "Complete Code Review using AI",
     "category": "Utility",
-    "author": "Aidan Cole",
+    "author": "Jithin Joji Anchanattu",
     "version": {
         "Major": 1,
         "Minor": 0,
         "Patch": 0
     },
-    "instanceNameFormat": "Open AI Code Review $(message)",
+    "instanceNameFormat": "AI-Assisted Code Review $(message)",
     "inputs": [
         {
             "name": "api_key",
