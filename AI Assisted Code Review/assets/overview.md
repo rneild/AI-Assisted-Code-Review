@@ -61,13 +61,13 @@ Supercharge your workflow with AI-powered code reviews. Install the extension no
 
 A: Ensure that "Allow scripts to access OAuth token" is enabled as part of the agent job. Follow the [documentation](https://learn.microsoft.com/en-us/azure/devops/pipelines/build/options?view=azure-devops#allow-scripts-to-access-the-oauth-token) for more details.
 
-![Pipeline Permissions](assets/pipeline_permissions.png)
+![Pipeline Permissions](pipeline_permissions.png)
 
 ### Q: What permissions are required for Build Administrators?
 
 A: Build Administrators must be given "Contribute to pull requests" access. Check [this Stack Overflow answer](https://stackoverflow.com/a/57985733) for guidance on setting up permissions.
 
-![Repository Permissions](assets/pr_permissions.png)
+![Repository Permissions](pr_permissions.png)
 
 ### Bug Reports
 
