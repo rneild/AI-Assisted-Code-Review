@@ -12,7 +12,7 @@ Supercharge your workflow with AI-powered code reviews. Install the extension no
 ## Why Use AI-Assisted Code Review?
 
 - **Automated Code Analysis:** Eliminate manual inspections with AI-driven analysis that detects bugs, performance issues, and suggests best practices automatically.
-- **Simple Installation:** Get started quickly with a one-click installation from the [Azure DevOps Marketplace](https://marketplace.visualstudio.com/items?itemName=AidanCole.oaicr).
+- **Simple Installation:** Get started quickly with a one-click installation from the [Azure DevOps Marketplace](https://marketplace.visualstudio.com/items?itemName=JithinJojiAnchanattu.ai-assisted-code-review).
 - **Intelligent Insights:** Harness advanced natural language processing to receive meaningful feedback on your pull requests.
 - **Accelerated Review Cycles:** Save time by letting AI handle routine reviews, so your team can focus on what truly matters.
 - **Customizable Settings:** Adapt the extension to your needs by configuring the AI model, file exclusions, and additional review prompts.
@@ -24,7 +24,7 @@ Supercharge your workflow with AI-powered code reviews. Install the extension no
 
 ## Getting started
 
-1. Install the AI Assisted Code Review DevOps Extension from the [Azure DevOps Marketplace]([https://marketplace.visualstudio.com/azuredevops](https://marketplace.visualstudio.com/items?itemName=AidanCole.oaicr)).
+1. Install the AI Assisted Code Review DevOps Extension from the [Azure DevOps Marketplace]([https://marketplace.visualstudio.com/azuredevops](https://marketplace.visualstudio.com/items?itemName=JithinJojiAnchanattu.ai-assisted-code-review)).
 2. Add AI Assisted Code Review Task to Your Pipeline:
 
    ```yaml
