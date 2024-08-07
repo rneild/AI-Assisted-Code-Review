@@ -14,6 +14,7 @@
     "azure-devops-extension-sdk": "^4.0.2",
     "azure-pipelines-task-lib": "^4.7.0",
     "gpt-tokenizer": "^2.1.2",
+    "https-proxy-agent": "^7.0.5",
     "openai": "^4.20.1",
     "simple-git": "^3.21.0"
   },
