@@ -1,19 +1,21 @@
-# Open AI Code Review Extension
 
-## Supercharge Your Code Reviews with Open AI
+# AI-Assisted Code Review for Azure DevOps
 
-Welcome to the Open AI Code Review Extension – your new ally in building top-notch software! This extension seamlessly integrates Open AI's powerful language models into your Azure DevOps pipeline, transforming code reviews into an intelligent and efficient process.
+## Elevate Your Code Review Process with AI
 
-### Get Started Now
+Welcome to the **AI-Assisted Code Review DevOps Extension**! Revolutionize your development process by integrating OpenAI’s cutting-edge language models into your Azure DevOps pipeline. Transform your code reviews into a smart, efficient, and insightful process.
 
-Enhance your development workflow with Open AI Code Review. Start receiving intelligent and actionable insights on your code changes. Install the extension today and experience the future of code reviews!
+### Start Improving Your Code Reviews Today
 
-## Why Choose Open AI Code Review?
+Supercharge your workflow with AI-powered code reviews. Install the extension now and unlock intelligent, actionable insights for every code change. Embrace the future of code reviews with ease!
 
-- **Automated Code Reviews:** Say goodbye to manual code inspections! Let Open AI analyze your code changes, catching bugs, performance issues, and suggesting best practices.
-- **AI-Powered Insights:** Leverage the latest advancements in natural language processing to receive insightful comments on your pull requests.
-- **Faster Reviews:** Reduce the time spent on code reviews. Let Open AI handle the routine, allowing your team to focus on impactful work.
-- **Configurable and Customizable:** Tailor the extension to your needs with customizable settings. Specify the Open AI model, define file exclusions, and more.
+## Why Use AI-Assisted Code Review?
+
+- **Automated Code Analysis:** Eliminate manual inspections with AI-driven analysis that detects bugs, performance issues, and suggests best practices automatically.
+- **Simple Installation:** Get started quickly with a one-click installation from the [Azure DevOps Marketplace](https://marketplace.visualstudio.com/items?itemName=AidanCole.oaicr).
+- **Intelligent Insights:** Harness advanced natural language processing to receive meaningful feedback on your pull requests.
+- **Accelerated Review Cycles:** Save time by letting AI handle routine reviews, so your team can focus on what truly matters.
+- **Customizable Settings:** Adapt the extension to your needs by configuring the AI model, file exclusions, and additional review prompts.
 
 ## Prerequisites
 
@@ -21,8 +23,8 @@ Enhance your development workflow with Open AI Code Review. Start receiving inte
 
 ## Getting started
 
-1. Install the Open AI Code Review DevOps Extension.
-2. Add Open AI Code Review Task to Your Pipeline:
+1. Install the AI Assisted Code Review DevOps Extension.
+2. Add AI Assisted Code Review Task to Your Pipeline:
 
    ```yaml
    trigger:
@@ -40,14 +42,14 @@ Enhance your development workflow with Open AI Code Review. Start receiving inte
      pool:
        vmImage: 'ubuntu-latest'
      steps:
-     - task: OpenAICodeReviewTask@1
+     - task: AIAssistedCodeReviewTask@1
        inputs:
          api_key: $(OpenAI_ApiKey)
          ai_model: 'gpt-3.5-turbo'
          bugs: true
          performance: true
          best_practices: true
-         file_extensions: 'js,ts,css,html'
+         file_extensions: 'cs,js,ts,css,html'
          file_excludes: 'file1.js,file2.py,secret.txt'
          additional_prompts: 'Fix variable naming, Ensure consistent indentation, Review error handling approach'`
 

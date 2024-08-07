@@ -43,14 +43,14 @@ Supercharge your workflow with AI-powered code reviews. Install the extension no
      pool:
        vmImage: 'ubuntu-latest'
      steps:
-     - task: OpenAICodeReviewTask@1
+     - task: AIAssistedCodeReviewTask@1
        inputs:
          api_key: $(OpenAI_ApiKey)
          ai_model: 'gpt-3.5-turbo'
          bugs: true
          performance: true
          best_practices: true
-         file_extensions: 'js,ts,css,html'
+         file_extensions: 'cs,js,ts,css,html'
          file_excludes: 'file1.js,file2.py,secret.txt'
          additional_prompts: 'Fix variable naming, Ensure consistent indentation, Review error handling approach'`
 

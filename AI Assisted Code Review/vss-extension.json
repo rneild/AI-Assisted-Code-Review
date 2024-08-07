@@ -10,7 +10,7 @@
             "id": "Microsoft.VisualStudio.Services"
         }
     ],
-    "description": "Elevate code review process with AI-powered insights directly integrated into Azure DevOps pull requests. Enhance code quality, accelerate review cycles, and boost overall efficiency with advanced AI-driven analysis and recommendations.",
+    "description": "Elevate code reviews with AI-powered insights seamlessly integrated into ADO PRs. Improve code quality, speed up reviews, and enhance efficiency with smart AI-driven analysis and recommendations.",
     "categories": [
         "Azure Pipelines"
     ],
