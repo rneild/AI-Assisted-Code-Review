@@ -24,7 +24,7 @@ Supercharge your workflow with AI-powered code reviews. Install the extension no
 
 ## Getting started
 
-1. Install the AI Assisted Code Review DevOps Extension from the [Azure DevOps Marketplace]([https://marketplace.visualstudio.com/azuredevops](https://marketplace.visualstudio.com/items?itemName=AidanCole.oaicr)).
+1. Install the AI Assisted Code Review DevOps Extension from the [Azure DevOps Marketplace]([https://marketplace.visualstudio.com/azuredevops](https://marketplace.visualstudio.com/items?itemName=JithinJojiAnchanattu.ai-assisted-code-review)).
 2. Add AI Assisted Code Review Task to Your Pipeline:
 
    ```yaml
