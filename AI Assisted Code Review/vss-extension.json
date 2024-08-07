@@ -40,13 +40,13 @@
     },
     "links": {
         "support": {
-            "uri": "https://github.com/a1dancole/openai-code-review/issues/new?assignees=&labels=bug&template=bug_report.md&title=",
+            "uri": "https://github.com/jithinanchanattu/AI-Assisted-Code-Review/issues/new?assignees=&labels=bug&template=bug_report.md&title=",
             "version": "1.0.0"
         }
     },
     "repository": {
         "type": "git",
-        "uri": "https://github.com/a1dancole/OpenAI-Code-Review"
+        "uri": "https://github.com/jithinanchanattu/AI-Assisted-Code-Review"
     },
     "screenshots": [
         {

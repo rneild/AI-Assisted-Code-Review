@@ -4,7 +4,7 @@
 
 Welcome to the Open AI Code Review Extension – your new ally in building top-notch software! This extension seamlessly integrates Open AI's powerful language models into your Azure DevOps pipeline, transforming code reviews into an intelligent and efficient process.
 
-### Get Started Now!
+### Get Started Now
 
 Enhance your development workflow with Open AI Code Review. Start receiving intelligent and actionable insights on your code changes. Install the extension today and experience the future of code reviews!
 
@@ -50,7 +50,7 @@ Enhance your development workflow with Open AI Code Review. Start receiving inte
          file_extensions: 'js,ts,css,html'
          file_excludes: 'file1.js,file2.py,secret.txt'
          additional_prompts: 'Fix variable naming, Ensure consistent indentation, Review error handling approach'`
-   
+
 3. If you do not already have Build Validation configured for your branch already add [Build validation](https://learn.microsoft.com/en-us/azure/devops/repos/git/branch-policies?view=azure-devops&tabs=browser#build-validation) to your branch policy to trigger the code review when a Pull Request is created
 
 ## FAQ
@@ -69,12 +69,12 @@ A: Build Administrators must be given "Contribute to pull requests" access. Chec
 
 ### Bug Reports
 
-If you find a bug or unexpected behavior, please [open a bug report](https://github.com/a1dancole/openai-code-review/issues/new?assignees=&labels=bug&template=bug_report.md&title=).
+If you find a bug or unexpected behavior, please [open a bug report](https://github.com/jithinanchanattu/AI-Assisted-Code-Review/issues/new?assignees=&labels=bug&template=bug_report.md&title=).
 
 ### Feature Requests
 
-If you have ideas for new features or enhancements, please [submit a feature request](https://github.com/a1dancole/openai-code-review/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=).
+If you have ideas for new features or enhancements, please [submit a feature request](https://github.com/jithinanchanattu/AI-Assisted-Code-Review/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=).
 
 ## Learn More
 
-Visit our [GitHub repository](https://github.com/a1dancole/OpenAI-Code-Review) for additional documentation, updates, and support.
+Visit our [GitHub repository](https://github.com/jithinanchanattu/AI-Assisted-Code-Review) for additional documentation, updates, and support.
