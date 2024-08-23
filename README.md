@@ -17,6 +17,9 @@ Supercharge your workflow with AI-powered code reviews. Install the extension no
 - **Accelerated Review Cycles:** Save time by letting AI handle routine reviews, so your team can focus on what truly matters.
 - **Customizable Settings:** Adapt the extension to your needs by configuring the AI model, file exclusions, and additional review prompts.
 
+## AI-Assisted Code Review - Flow Diagram
+![image](https://github.com/user-attachments/assets/8645a9c5-bf55-4185-97d9-c5406fbc9e80)
+
 ## Prerequisites
 
 - An [Azure DevOps Account](https://dev.azure.com/)
